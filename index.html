@@ -1,278 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | Nike</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul class="nav__links">
-          <li class="link logo">NIKE</li>
-          <li class="link">MEN</li>
-          <li class="link">WOMEN</li>
-          <li class="link">KIDS</li>
-          <li class="link">SPORTS</li>
-          <li class="link">BRANDS</li>
-          <li class="link">CUSTOMIZE</li>
-        </ul>
-        <div class="social__icons">
-          <span><i class="ri-facebook-fill"></i></span>
-          <span><i class="ri-twitter-fill"></i></span>
-          <span><i class="ri-google-fill"></i></span>
-          <span><i class="ri-instagram-line"></i></span>
-        </div>
-      </nav>
-      <div class="section_container header__container">
-        <div class="header__content">
-          <h1>NIKE<br />SHOES</h1>
-          <p>SIGN UP AND GET 50% OFF</p>
-        </div>
-      </div>
-    </header>
-    <main class="main__container">
-      <div class="main__content">
-        <section class="service__container">
-          <div class="service__card">
-            <span><i class="ri-flight-takeoff-fill"></i></span>
-            <h4>FREE SHIPPING</h4>
-            <p>
-              Online shopping offers convenience, a vast selection of products,
-              and the ability to shop from anywhere, anytime.
-            </p>
-            <a href="#">Click Here</a>
-          </div>
-          <div class="service__card">
-            <span><i class="ri-truck-line"></i></span>
-            <h4>ON TIME DELIVERY</h4>
-            <p>
-              E-commerce companies handle the logistics of delivering products
-              to customers' doorsteps.
-            </p>
-            <a href="#">Click Here</a>
-          </div>
-          <div class="service__card">
-            <span><i class="ri-time-line"></i></span>
-            <h4>REVIEWS & RATINGS</h4>
-            <p>
-              E-commerce platforms often have a review and rating system where
-              customers can share their feedback.
-            </p>
-            <a href="#">Click Here</a>
-          </div>
-          <div class="service__card">
-            <span><i class="ri-customer-service-2-line"></i></span>
-            <h4>CUSTOMER SUPPORT</h4>
-            <p>
-              E-commerce companies offer customer support services to assist
-              customers with their queries, concerns, and issues.
-            </p>
-            <a href="#">Click Here</a>
-          </div>
-        </section>
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>shoes</title>
+</head>
 
-        <section class="banner">
-          <div class="banner__content">
-            <p class="subtitle">OFFER OF THE MONTH</p>
-            <h4 class="title">PHANTOM VISION ELITE DYNAMIC</h4>
-            <p class="description">
-              The Nike Phantom Vision Elite Dynamic shoes combine comfort,
-              performance, and style. Designed for football (soccer) players,
-              they feature a dynamic fit collar for agility and a precise touch.
-              With a lightweight design and excellent traction, these shoes
-              offer top-notch performance on the field.
-            </p>
-            <div class="price"><span>$500</span> <del>$1000</del></div>
-            <div class="countdown">
-              <div class="square">
-                <p>09</p>
-                <span>HOURS</span>
-              </div>
-              <div class="square">
-                <p>56</p>
-                <span>MINUTES</span>
-              </div>
-              <div class="square">
-                <p>11</p>
-                <span>SECONDS</span>
-              </div>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/sneakers.png" alt="">
             </div>
-            <button>SHOP NOW</button>
-          </div>
-          <div class="banner__image"></div>
-        </section>
-
-        <section class="collection__container">
-          <div class="collection__image">
-            <img src="assets/collection-1.png" alt="collection" />
-            <h4>STEFAN JANOSKI MAX</h4>
-            <p>$100.00 <del>$200</del></p>
-          </div>
-          <div class="collection__image">
-            <img src="assets/collection-2.png" alt="collection" />
-            <h4>VANDAL HIGH SUPREME</h4>
-            <p>$100.00 <del>$200</del></p>
-          </div>
-          <div class="collection__image">
-            <img src="assets/collection-3.png" alt="collection" />
-            <h4>NEW ZOOM</h4>
-            <p>$100.00 <del>$200</del></p>
-          </div>
-          <div class="collection__image">
-            <img src="assets/collection-4.png" alt="collection" />
-            <h4>FIT SHOES</h4>
-            <p>$100.00 <del>$200</del></p>
-          </div>
-          <div class="collection__card">
-            <h4>MEN'S RUNNING SHOES</h4>
-            <p>SIGN UP NOW AND GET 50% OFF</p>
-          </div>
-          <div class="collection__image">
-            <img src="assets/collection-5.png" alt="collection" />
-          </div>
-          <div class="collection__banner">
-            <div class="collection__banner__content">
-              RUN,<br />EAT, SLEEP<br />AND<br />REPEAT
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
             </div>
-          </div>
-          <div class="collection__image">
-            <img src="assets/collection-6.png" alt="collection" />
-            <h4>SPORTS SHOES</h4>
-            <p>$100.00 <del>$200</del></p>
-          </div>
-          <div class="collection__image">
-            <img src="assets/collection-7.png" alt="collection" />
-            <h4>MEN SHOES</h4>
-            <p>$100.00 <del>$200</del></p>
-          </div>
-          <div class="collection__image">
-            <img src="assets/collection-8.png" alt="collection" />
-            <h4>NIKE AIR SHOES</h4>
-            <p>$100.00 <del>$200</del></p>
-          </div>
-          <div class="collection__image">
-            <img src="assets/collection-9.png" alt="collection" />
-            <h4>GIRL SHOES</h4>
-            <p>$100.00 <del>$200</del></p>
-          </div>
-        </section>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">AIR FORCE</h3>
+            <h3 class="menuItem"> AIR JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="air.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">Php 12,896</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+                 
+            </div>
+            <div class="sliderItem">
+                <img src="jordan.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$149</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+                 <button class="addToCartButton">ADD TO CART</button>
+            </div>
+            <div class="sliderItem">
+                <img src="blazer.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$20,500</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+                 <button class="addToCartButton">ADD TO CART</button>
+            </div>
+            <div class="sliderItem">
+                <img src="crater.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CRATER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$129</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+                 <button class="addToCartButton">ADD TO CART</button>
+            </div>
+            <div class="sliderItem">
+                <img src="hippie.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$99</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+                 <button class="addToCartButton">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
 
-        <section class="gallery">
-          <div class="gallery__image">
-            <img src="assets/gallery-1.jpg" alt="gallery" />
-          </div>
-          <div class="gallery__image">
-            <img src="assets/gallery-2.jpg" alt="gallery" />
-          </div>
-          <div class="gallery__image">
-            <img src="assets/gallery-3.jpg" alt="gallery" />
-          </div>
-          <div class="gallery__image">
-            <img src="assets/gallery-4.jpg" alt="gallery" />
-          </div>
-          <div class="gallery__image">
-            <img src="assets/gallery-5.jpg" alt="gallery" />
-          </div>
-          <div class="gallery__image">
-            <img src="assets/gallery-6.jpg" alt="gallery" />
-          </div>
-          <div class="gallery__image">
-            <img src="assets/gallery-7.jpg" alt="gallery" />
-          </div>
-          <div class="gallery__image">
-            <img src="assets/gallery-8.jpg" alt="gallery" />
-          </div>
-          <div class="gallery__image">
-            <img src="assets/gallery-9.jpg" alt="gallery" />
-          </div>
-        </section>
+    <div class="features">
+        <div class="feature">
+            <img src="image2.jfif" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="image 3.jpg" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="gift.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="https://w7.pngwing.com/pngs/222/873/png-transparent-contact-us-icon-email-iphone-telephone-computer-icons-contact-miscellaneous-blue-angle-thumbnail.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
 
-        <section class="brands__container">
-          <div class="brand__image">
-            <img src="assets/brand-1.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-2.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-3.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-1.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-2.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-3.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-4.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-5.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-6.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-4.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-5.png" alt="brand" />
-          </div>
-          <div class="brand__image">
-            <img src="assets/brand-6.png" alt="brand" />
-          </div>
-        </section>
-      </div>
-    </main>
+    
+
+    <div class="product" id="product">
+        <img src="air2.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">$199</h2>
+             <p class="productDesc">These shoes were made for flaunting</p> 
+        
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Name" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+63" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Address" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="visa.png" width="40" alt="" class="cardIcon">
+                <img src="master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compresscs=tinysrgbdpr=2w=500"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compresscs=tinysrgbdpr=2w=500"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compresscs=tinysrgbdpr=2w=500"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+
+
+        <div class="product-container">
+
+    
+    <div class="product-brand">
+        <h1>JORDAN SHOES</h1>
+    </div>
+
+    
+    <div class="row">
+
+        <div class="column">
+            <img src="https://parkaccess.com.ph/cdn/shop/files/AURORA_DN3253-401_PHSRH001-2000_375x_crop_center.png?v=1696245668" width="70%" height="50%">
+            
+            
+            <h3>Air Jordan 1</h3>
+            <h4>$50</h4>
+            <button class="addCart"><i class='bx bx-cart-add'></i></button>
+        </div>
+
+        <div class="column">
+            <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/91c1c758-95d0-4657-962b-03b585f7ea7a/air-force-1-07-lx-shoes-SGsVWx.png" width="70%" height="50%">
+
+            
+            <h3>Nike Air 3</h3>
+            <h4>$50</h4>
+            <button class="addCart"><i class='bx bx-cart-add'></i></button>
+        </div>
+
+        <div class="column">
+            <img src="https://pimpkicks.com.ph/cdn/shop/products/Jordan_3_Tinker_White_University_Red_Men_s.png?v=1554524363" width="70%" height="50%">
+
+            
+
+            <h3> Jordan Tinker</h3>
+            <h4>$50</h4>
+            <button class="addCart"><i class='bx bx-cart-add' ></i></button>
+        </div>
+
+        <div class="column">
+            <img src="https://atmos.ph/cdn/shop/products/AURORA_DR8884-001_PHCFH001-2000_600x.jpg?v=1693068092" width="70%" height="50%">
+            
+            
+            <h3>Jordan Retro</h3>
+            <h4>$50</h4>
+            <button class="addCart"><i class='bx bx-cart-add'></i></button>
+        </div>
+    </div>
+
+
+    
+
+
+    <div class="product-brand">
+        <h1>NIKE</h1>
+    </div>
+
+        <div class="row">
+        <div class="column">
+            <img src="https://www.uniquekicks.be/cdn/shop/products/Nike-Air-Force-1-Low-Premium-Light-Cream-Gum-3.png?v=1706433110&width=713" width="70%" height="50%">
+            
+            <h3>Air Force 2</h3>
+            <h4>$50</h4>
+            <button class="addCart"><i class='bx bx-cart-add'></i></button>
+        </div>
+
+        <div class="column">
+            <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/d217f7a3-e68c-4765-9c3f-db145d6131d6/impact-4-basketball-shoes-CcJxBx.png" width="70%" height="50%">
+
+           
+            <h3> Impact 4</h3>
+            <h4>$35</h4>
+            <button class="addCart"><i class='bx bx-cart-add' ></i></button>
+        </div>
+
+        <div class="column">
+            <img src="https://sothebys-md.brightspotcdn.com/dims4/default/d83b01f/2147483647/strip/true/crop/3543x3543+0+0/resize/800x800!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F2a%2F9a%2F08ef17e64a84a0bc69a376754764%2Fnike-air-jordan-3-mocha-signed-tinker-hatfield-justin-timberlake.jpg" width="70%" height="50%">
+            
+            <h3>Nike Air 3</h3>
+            <h4>$50</h4>
+            <button class="addCart"><i class='bx bx-cart-add'></i></button>
+        </div>
+
+            <div class="column">
+                <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/901bd1c3-ac4e-4047-89a1-2a09faaa40a6/freak-5-ep-basketball-shoes-dPwdt7.png
+" width="70%" height="50%">
+                
+                
+                <h3>Freak 5</h3>
+                <h4>$67</h4>
+                <button class="addCart"><i class='bx bx-cart-add'></i></button>
+            </div>
+
+
+            
+    </div>
+
+
+
+
+
+
+        <div class="product-brand">
+            <h1>PUMA</h1>
+        </div>
+
+            <div class="row">
+            <div class="column">
+                <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/389289/01/sv01/fnd/PHL/fmt/png" width="70%" height="50%">
+                
+                <h3>Trinity</h3>
+                <h4>$67</h4>
+                <button class="addCart"><i class='bx bx-cart-add'></i></button>
+            </div>
+
+            <div class="column">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmFS3Qbn4Giha7u1Jjw8ig7jV-zSZ3b1fRHeyrOAS4qmKt6KeLvKZeUs4StJqzrxEhXSs&usqp=CAU" width="70%" height="50%">
+                    
+                
+                <h3> Roma</h3>
+                <h4>$47</h4>
+                <button class="addCart"><i class='bx bx-cart-add' ></i></button>
+            </div>
+
+            <div class="column">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/7/ZW/WS/BA/30859917/puma-high-ankle-shoes-500x500.jpg" width="70%" height="50%">
+
+               
+                <h3>PVC Puma</h3>
+                <h4>$56</h4>
+                <button class="addCart"><i class='bx bx-cart-add'></i></button>
+            </div>
+
+                <div class="column">
+                    <img src="https://images.journeys.com/images/products/1_754576_FS_ALT5.JPG
+    " width="70%" height="50%">
+
+                    
+                    
+                    
+
+                    <h3>Puma CA Pro</h3>
+                    <h4>$39</h4>
+                    <button class="addCart"><i class='bx bx-cart-add'></i></button>
+                </div>
+
+
+
+        </div>
+
+        </div>
+
+    
+    
+        <div class="shopping-cart">
+            <h2>Shopping Cart<i class='bx bx-cart'></i></h2>
+            <ul id="cart">
+                <!-- This is where the cart items will be dynamically added -->
+            </ul>
+        </div>
+    
+  
+    
+
     <footer>
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <h4>SHOPS</h4>
-          <p>Men</p>
-          <p>Women</p>
-          <p>Top Brands</p>
-          <p>Bags & Accessories</p>
-          <p>Lookbook</p>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="MenuTitle">About Us</h1>
+                <ul class="List">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="MenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="MenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Jordan</li>
+                    <li class="fListItem">Nike</li>
+                    <li class="fListItem">Puma</li>
+                    
+                </ul>
+            </div>
         </div>
-        <div class="footer__col">
-          <h4>INFORMATION</h4>
-          <p>About Us</p>
-          <p>Customer Service</p>
-          <p>Manufacturers</p>
-          <p>Privacy Policy</p>
-          <p>Blog</p>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="MenuTitle">Subscribe to our newsletter</h1>
+                <div class="Mail">
+                    <input type="text" placeholder="Email" class="Input">
+                    
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="MenuTitle">Follow Us</h1>
+                <div class="Icons">
+                    <img src="facebook.png" alt="" class="fIcon">
+                    <img src="twitter.png" alt="" class="fIcon">
+                    <img src="instagram.png" alt="" class="fIcon">
+                    <img src="whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@G-5ive. All rights reserved. 2024.</span>
+            </div>
         </div>
-        <div class="footer__col">
-          <h4>STAY CONNECTED</h4>
-          <div class="footer__socials">
-            <span><i class="ri-facebook-fill"></i></span>
-            <span><i class="ri-twitter-fill"></i></span>
-            <span><i class="ri-google-fill"></i></span>
-            <span><i class="ri-instagram-line"></i></span>
-          </div>
-        </div>
-      </div>
-      <div class="section__container footer__bar">
-        <div class="copyright">
-          Copyright © 2023 Web Design Mastery. All rights reserved.
-        </div>
-        <div class="payment__cards">
-          <span><i class="ri-visa-fill"></i></span>
-          <span><i class="ri-bank-card-2-fill"></i></span>
-          <span><i class="ri-mastercard-line"></i></span>
-          <span><i class="ri-bank-card-2-line"></i></span>
-        </div>
-      </div>
-    </footer>
-  </body>
+    
+    
+    <script src="script.js"></script>
+</body>
+
 </html>
